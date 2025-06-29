@@ -1,6 +1,5 @@
 # PDP-11/40 Mini Panel (Unfinished)
-
-![Alt text](images/stack.jpg)
+![mini front panel](images/stack.jpg)
 
 Included in this repository are the PCB files to make a miniature PDP-11/40 front panel. The board uses a XIAO nrf52840 dev board. No software has been written yet.
 
@@ -23,11 +22,11 @@ This project consists of three pcbs:
 # Building
 Place the spacer on the back of the nrf52840 module with the pads facing the the front. Solder the spacer to the back of the module using a minimal amount of solder. File the solder pints flat if needed.
 
-![Alt text](images/spacer.jpg)
+![pcb spacer](images/spacer.jpg)
 
 Solder the module and spacer to the main PCB. Using some short wire solder the pads of the space to the main PCB. Skip the top most pad, its ground.
 
-For the programming header check [main pcb image](/images/pcb_back.jpg)
+For the programming header orientation check [main pcb image](/images/pcb_back.jpg).
 
 # Programming
 ¯\\_(ツ)_/¯
